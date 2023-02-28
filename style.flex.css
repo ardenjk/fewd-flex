@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.navi {
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #B1F994;
+}
+
+.navi li{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: flex-start;
+}
+
+.navi li a {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: flex-start;
+	text-decoration: none;
+	color: black; /* sets from blue to black */
+	font-family: 'Gloock', serif;
+	font-size: 20px;
+
+}
+
+.navi li a.active {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	text-decoration: underline;
+	color:#277707;
+}
+
+.home-image{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: baseline;
+	width: 100%;
+}
+
+.stop-waste{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: baseline;
+	width: 700px;
+	padding-top: 30px;
+
+}
+
+.title{
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	color:#0C681B;
+}
+
+.parent{
+	padding: 1rem 1rem;
+	vertical-align: middle;
+	magin: 1rem;
+	text-align: center;
+}
+
+.child{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: stretch;
+	color:#583D15;
+}
+
+.map-image{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+} 
+
+.text{
+	display: flex;
+	justify-content:center;
+	color:#B1F994;
+	padding-top: 30px;
+	padding-left:30px;
+
+}
+
+.background{
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: url(nyc.copy.jpeg);
+}
+
+.organization{
+	justify-content:center;
+	color:black;
+	padding-top: 30px;
+	padding-left:30px;
+}
